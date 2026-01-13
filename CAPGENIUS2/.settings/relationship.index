@@ -1,1 +1,20 @@
-[ ]
+[ {
+  "baseItem" : {
+    "id" : "_-KtqoPDREfCyA-bwrPAXtA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_50v6gPDSEfCyA-bwrPAXtA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_5g1FUPCYEfCWHME-xWoEDA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_5g1FUPCYEfCWHME-xWoEDA - PRODUCTO",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]
