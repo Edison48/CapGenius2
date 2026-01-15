@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_m7wq8PGFEfCqEYGuam_HHA" name="CNX_CSV_MARCA" dataPackage="_m7wq8fGFEfCqEYGuam_HHA" Server="Localhost 127.0.0.1" FilePath="C:/Talend/Genius2/ERP/BaseDeDatosERP/MARCA.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom ANSI"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_m7wq8fGFEfCqEYGuam_HHA" name="default" dataManager="_m7wq8PGFEfCqEYGuam_HHA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_m7wq8vGFEfCqEYGuam_HHA" id="_ePGc0PGFEfCqEYGuam_HHA" label="MARCA">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_m7wq8_GFEfCqEYGuam_HHA" label="COD_MARCA" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_m7wq9PGFEfCqEYGuam_HHA" label="MARCA" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -17,4 +17,62 @@
     "version" : "Latest",
     "type" : "schema"
   } ]
+}, {
+  "baseItem" : {
+    "id" : "_Gv5K8PGGEfCqEYGuam_HHA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_5g1FUPCYEfCWHME-xWoEDA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_8CX4UPGFEfCqEYGuam_HHA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_TnBKMPGNEfCqEYGuam_HHA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_m7ovIPGFEfCqEYGuam_HHA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_w1BPEPGFEfCqEYGuam_HHA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_5g1FUPCYEfCWHME-xWoEDA - PRODUCTO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_8CX4UPGFEfCqEYGuam_HHA - COLOR",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_m7ovIPGFEfCqEYGuam_HHA - MARCA",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_w1BPEPGFEfCqEYGuam_HHA - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_ai3j8PI7EfC6dq9VNR5NVg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "CAPGENIUS2:_-KtqoPDREfCyA-bwrPAXtA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "CAPGENIUS2:_1lJewPGcEfCqEYGuam_HHA",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
 } ]

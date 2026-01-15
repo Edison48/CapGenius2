@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_w1B2IPGFEfCqEYGuam_HHA" name="CNX_CSV_MODELO" dataPackage="_w1B2IfGFEfCqEYGuam_HHA" Server="Localhost 127.0.0.1" FilePath="C:/Talend/Genius2/ERP/BaseDeDatosERP/MODELO.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" HeaderValue="0" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_w1B2IfGFEfCqEYGuam_HHA" name="default" dataManager="_w1B2IPGFEfCqEYGuam_HHA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_w1B2IvGFEfCqEYGuam_HHA" id="_pdV24PGFEfCqEYGuam_HHA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w1B2I_GFEfCqEYGuam_HHA" label="COD_MODELO" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w1B2JPGFEfCqEYGuam_HHA" label="MODELO" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

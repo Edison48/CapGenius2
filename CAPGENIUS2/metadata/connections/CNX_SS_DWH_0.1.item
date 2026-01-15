@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
-  <TalendMetadata:DatabaseConnection xmi:id="_WcmrwPDTEfCyA-bwrPAXtA" name="CNX_SS" id="_50v6gPDSEfCyA-bwrPAXtA" label="CNX_SS" dataPackage="_O9KDIPGNEfCqEYGuam_HHA" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://23.108.55.228:3306/DSADEV?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="3306" Username="usr_acme" Password="enc:system.encryption.key.v1:SFWESwd81TGlA/aaUyb1MJHmpOg8lgrDW9qjhzwMq12/Xaw=" ServerName="23.108.55.228" DatasourceName="" FileFieldName="" SID="DSADEV" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
-    <taggedValue xmi:id="_Wcn54PDTEfCyA-bwrPAXtA" tag="Is Conn Need Reload" value="false"/>
+  <TalendMetadata:DatabaseConnection xmi:id="_TnNXcPGNEfCqEYGuam_HHA" name="CNX_SS_DWH" id="_TnBKMPGNEfCqEYGuam_HHA" label="CNX_SS_DWH" dataPackage="_hcZloPGNEfCqEYGuam_HHA" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://23.108.55.228:3306/DWHDEV?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="3306" Username="usr_acme" Password="enc:system.encryption.key.v1:SFWESwd81TGlA/aaUyb1MJHmpOg8lgrDW9qjhzwMq12/Xaw=" ServerName="23.108.55.228" DatasourceName="" FileFieldName="" SID="DWHDEV" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+    <taggedValue xmi:id="_Wcn54PDTEfCyA-bwrPAXtA" tag="Is Conn Need Reload" value="true"/>
     <taggedValue xmi:id="_Wc8qAPDTEfCyA-bwrPAXtA" tag="package filter" value=""/>
     <taggedValue xmi:id="_WdHpIPDTEfCyA-bwrPAXtA" tag="Status" value=""/>
     <taggedValue xmi:id="_WdHpIfDTEfCyA-bwrPAXtA" tag="Version" value="0.1"/>
@@ -15,5 +15,5 @@
     <parameters xmi:id="_Wcn54fDTEfCyA-bwrPAXtA" key="CONN_PARA_KEY_USERNAME" value="usr_acme"/>
     <parameters xmi:id="_NT7bgPGNEfCqEYGuam_HHA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_O9KDIPGNEfCqEYGuam_HHA" name="DSADEV" dataManager="_WcmrwPDTEfCyA-bwrPAXtA"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_hcZloPGNEfCqEYGuam_HHA" name="DWHDEV" dataManager="_TnNXcPGNEfCqEYGuam_HHA"/>
 </xmi:XMI>
